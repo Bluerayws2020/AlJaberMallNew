@@ -1,0 +1,243 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1aW-MH-5sA"; */
+"1aW-MH-5sA.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "21z-u2-T9u"; */
+"21z-u2-T9u.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Continue with facebook"; ObjectID = "3Ta-8b-X8c"; */
+"3Ta-8b-X8c.text" = "Continue with facebook";
+
+/* Class = "UITabBarItem"; title = "Categories"; ObjectID = "4hF-LJ-yQg"; */
+"4hF-LJ-yQg.title" = "الاقسام";
+
+/* Class = "UITabBarItem"; title = "Favorite"; ObjectID = "5Pl-KW-EVK"; */
+"5Pl-KW-EVK.title" = "المفضلة";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "5RX-Ey-f6F"; */
+"5RX-Ey-f6F.text" = "About Us";
+
+/* Class = "UILabel"; text = "Create Account"; ObjectID = "5mv-Y0-RQE"; */
+"5mv-Y0-RQE.text" = "Create Account";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Paradise"; ObjectID = "7ND-1E-D7M"; */
+"7ND-1E-D7M.normalTitle" = "Sign in with Paradise";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Rx-af-s7v"; */
+"7Rx-af-s7v.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7W9-iN-OoK"; */
+"7W9-iN-OoK.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "895-9N-mOg"; */
+"895-9N-mOg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "8d2-3j-5he"; */
+"8d2-3j-5he.text" = "No Data";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "8uS-Xo-9iO"; */
+"8uS-Xo-9iO.text" = "Address";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9dJ-u6-FtG"; */
+"9dJ-u6-FtG.text" = "Label";
+
+/* Class = "UILabel"; text = "العربية"; ObjectID = "Bgk-Dg-15O"; */
+"Bgk-Dg-15O.text" = "العربية";
+
+/* Class = "UILabel"; text = "Contact for any"; ObjectID = "Czx-BF-1E1"; */
+"Czx-BF-1E1.text" = "Contact for any";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Dpr-P9-bvR"; */
+"Dpr-P9-bvR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Join esh7anly Today\nCreate an account to continue shopping"; ObjectID = "E9j-Ty-PfC"; */
+"E9j-Ty-PfC.text" = "Join esh7anly Today\nCreate an account to continue shopping";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "EHb-dz-I5U"; */
+"EHb-dz-I5U.text" = "0";
+
+/* Class = "UILabel"; text = "Choose Language"; ObjectID = "EfW-cU-7of"; */
+"EfW-cU-7of.text" = "Choose Language";
+
+/* Class = "UIButton"; normalTitle = "or, Create a Paradise account"; ObjectID = "Eoi-o4-Mo7"; */
+"Eoi-o4-Mo7.normalTitle" = "or, Create a Paradise account";
+
+/* Class = "UIButton"; normalTitle = "Confirm pin location"; ObjectID = "GCQ-zR-H9M"; */
+"GCQ-zR-H9M.normalTitle" = "Confirm pin location";
+
+/* Class = "UILabel"; text = "Reset it"; ObjectID = "GSe-xs-GqH"; */
+"GSe-xs-GqH.text" = "Reset it";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "GWh-F5-YXc"; */
+"GWh-F5-YXc.title" = "الرئيسية";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "Grh-ON-KpD"; */
+"Grh-ON-KpD.normalTitle" = "Update";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HIm-HH-URi"; */
+"HIm-HH-URi.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HgC-ct-7Iy"; */
+"HgC-ct-7Iy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome back\nLog in with your email and password"; ObjectID = "IJv-rj-6XZ"; */
+"IJv-rj-6XZ.text" = "Welcome back\nLog in with your email and password";
+
+/* Class = "UITabBarItem"; title = "Deals"; ObjectID = "IZi-zR-B5K"; */
+"IZi-zR-B5K.title" = "العروض";
+
+/* Class = "UIButton"; normalTitle = "Continue as guest"; ObjectID = "J05-Fw-l1T"; */
+"J05-Fw-l1T.normalTitle" = "Continue as guest";
+
+/* Class = "UIButton"; normalTitle = "Create an Account"; ObjectID = "J3O-Qm-VKh"; */
+"J3O-Qm-VKh.normalTitle" = "Create an Account";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "KFh-kD-sn0"; */
+"KFh-kD-sn0.text" = "English";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LrD-Nx-oGP"; */
+"LrD-Nx-oGP.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Search For Items"; ObjectID = "MLl-1u-FHv"; */
+"MLl-1u-FHv.placeholder" = "Search For Items";
+
+/* Class = "UISearchBar"; MLl-1u-FHv.scopeButtonTitles[0] = "Title"; ObjectID = "MLl-1u-FHv"; */
+"MLl-1u-FHv.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; MLl-1u-FHv.scopeButtonTitles[1] = "Title"; ObjectID = "MLl-1u-FHv"; */
+"MLl-1u-FHv.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "Related Products"; ObjectID = "MiM-qV-HPb"; */
+"MiM-qV-HPb.text" = "Related Products";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "N1N-tE-DFk"; */
+"N1N-tE-DFk.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "Ofb-q5-hE1"; */
+"Ofb-q5-hE1.text" = "No Data";
+
+/* Class = "UILabel"; text = "Ahmad"; ObjectID = "Ph2-LU-RDf"; */
+"Ph2-LU-RDf.text" = "Ahmad";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pj2-B4-Grt"; */
+"Pj2-B4-Grt.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "Qfk-sQ-adM"; */
+"Qfk-sQ-adM.title" = "السلة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rto-lX-6MV"; */
+"Rto-lX-6MV.text" = "Label";
+
+/* Class = "UILabel"; text = "962"; ObjectID = "T1V-dI-6iN"; */
+"T1V-dI-6iN.text" = "962";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ToM-jj-tQO"; */
+"ToM-jj-tQO.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Join esh7anly Today\nCreate an account to continue shopping"; ObjectID = "U3F-hy-Okb"; */
+"U3F-hy-Okb.text" = "Join esh7anly Today\nCreate an account to continue shopping";
+
+/* Class = "UILabel"; text = "Search for your address"; ObjectID = "VPG-yM-bBA"; */
+"VPG-yM-bBA.text" = "Search for your address";
+
+/* Class = "UIButton"; normalTitle = "Log in"; ObjectID = "VmD-Po-KQL"; */
+"VmD-Po-KQL.normalTitle" = "Log in";
+
+/* Class = "UILabel"; text = "Saved addresses"; ObjectID = "Vqk-Fb-Inr"; */
+"Vqk-Fb-Inr.text" = "Saved addresses";
+
+/* Class = "UILabel"; text = "By signing up, you agree to our terms of services & Privacy Policy"; ObjectID = "W0N-yM-yUV"; */
+"W0N-yM-yUV.text" = "By signing up, you agree to our terms of services & Privacy Policy";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "XTF-bd-EGi"; */
+"XTF-bd-EGi.text" = "No Data";
+
+/* Class = "UILabel"; text = "By signing up, you agree to our terms of services & Privacy Policy"; ObjectID = "XWX-0h-QJt"; */
+"XWX-0h-QJt.text" = "By signing up, you agree to our terms of services & Privacy Policy";
+
+/* Class = "UIButton"; normalTitle = "Add to Cart"; ObjectID = "YR8-bg-mUl"; */
+"YR8-bg-mUl.normalTitle" = "Add to Cart";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "Z27-3f-0U0"; */
+"Z27-3f-0U0.text" = "No Data";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "ZFY-wv-J7i"; */
+"ZFY-wv-J7i.text" = "No Data";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "a84-xR-cQS"; */
+"a84-xR-cQS.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aSh-g3-DbZ"; */
+"aSh-g3-DbZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Continue with email"; ObjectID = "anT-vL-i2I"; */
+"anT-vL-i2I.text" = "Continue with email";
+
+/* Class = "UILabel"; text = "+962"; ObjectID = "cIw-YE-35g"; */
+"cIw-YE-35g.text" = "+962";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "dbJ-82-Tgq"; */
+"dbJ-82-Tgq.text" = "My Orders";
+
+/* Class = "UILabel"; text = "Log in or Create an account"; ObjectID = "eVD-bL-Q2B"; */
+"eVD-bL-Q2B.text" = "Log in or Create an account";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fE8-bp-Mkn"; */
+"fE8-bp-Mkn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iQV-cd-q3c"; */
+"iQV-cd-q3c.text" = "Label";
+
+/* Class = "UILabel"; text = "Delivery Location"; ObjectID = "iQa-BA-fEQ"; */
+"iQa-BA-fEQ.text" = "Delivery Location";
+
+/* Class = "UILabel"; text = "Continue with google"; ObjectID = "nUQ-3o-qgd"; */
+"nUQ-3o-qgd.text" = "Continue with google";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "oDg-v6-Wha"; */
+"oDg-v6-Wha.text" = "Logout";
+
+/* Class = "UILabel"; text = "No Data"; ObjectID = "oyf-Be-aWv"; */
+"oyf-Be-aWv.text" = "No Data";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "q5E-f8-Ql4"; */
+"q5E-f8-Ql4.text" = "Label";
+
+/* Class = "UILabel"; text = "Hi,"; ObjectID = "qww-lk-zA8"; */
+"qww-lk-zA8.text" = "Hi,";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "rRb-tw-eov"; */
+"rRb-tw-eov.text" = "Label";
+
+/* Class = "UILabel"; text = "962"; ObjectID = "sKp-Rt-DsA"; */
+"sKp-Rt-DsA.text" = "962";
+
+/* Class = "UILabel"; text = "Add to favourite"; ObjectID = "sk8-PY-4dA"; */
+"sk8-PY-4dA.text" = "Add to favourite";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "smU-Kq-opC"; */
+"smU-Kq-opC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "My Orders"; ObjectID = "t2l-Io-zCS"; */
+"t2l-Io-zCS.text" = "My Orders";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "tFQ-IF-GBx"; */
+"tFQ-IF-GBx.text" = "Label";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "tcP-Hf-IgU"; */
+"tcP-Hf-IgU.text" = "Home";
+
+/* Class = "UILabel"; text = "Profile"; ObjectID = "u7m-Ea-Bd9"; */
+"u7m-Ea-Bd9.text" = "Profile";
+
+/* Class = "UILabel"; text = "Join esh7anly Today\nCreate an account to continue shopping"; ObjectID = "vks-Pm-TKg"; */
+"vks-Pm-TKg.text" = "Join esh7anly Today\nCreate an account to continue shopping";
+
+/* Class = "UILabel"; text = "language"; ObjectID = "wI1-uF-boJ"; */
+"wI1-uF-boJ.text" = "language";
+
+/* Class = "UILabel"; text = "By signing up, you agree to our terms of services & Privacy Policy"; ObjectID = "wPX-Cb-WPe"; */
+"wPX-Cb-WPe.text" = "By signing up, you agree to our terms of services & Privacy Policy";
+
+/* Class = "UILabel"; text = "Forgot your password?"; ObjectID = "ybm-g2-fUs"; */
+"ybm-g2-fUs.text" = "Forgot your password?";

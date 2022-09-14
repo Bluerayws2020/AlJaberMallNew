@@ -1,0 +1,247 @@
+/* 
+  Localizble.strings
+  Zooney
+
+  Created by Omar Warrayat on 27/10/2021.
+  
+*/
+
+"Continue as guest" = "ﺗﺨﻄﻲ";
+
+"Sign in with Paradise" = "ﺗﺴﺠﻴﻞ ﺍﻟﺪﺧﻮﻝ ﻣﻊ زوني";
+
+"or, Create a Paradise account" = "ﺃﻭ ، ﺃﻧﺸﺎﺀ ﺣﺴﺎﺏ زوني";
+
+"Add to Cart" = "ﺇﺿﺎﻓﺔ ﺍﻟﻰ ﺍﻟﺴﻠﺔ";
+
+"Home" = "ﺍﻟﺮﺋﻴﺴﻴﺔ";
+
+"Select" = "ﺍﺧﺘﺮ";
+
+"Male" = "ﺫﻛﺮ";
+
+"Female" = "ﺃﻧﺜﻰ";
+
+"Deals" = "ﻋﺮﻭﺽ";
+
+"Piece" = "ﺣﺒﺔ";
+
+"1 KG" = "1 ﻛﻴﻠﻮ";
+
+"Review Cart" = "ﻋﺮﺽ ﺍﻟﺴﻠﺔ";
+
+"No location selected" = " ﻟﻢ ﻳﺘﻢ ﺗﺤﺪﻳﺪ ﻣﻮﻗﻊ ";
+
+"Delivered" = "ﺗﻢ ﺍﻻﺳﺘﻼﻡ";
+
+"Pickup" = " Pickup ";
+
+"theres_cart" = "هناك منتجات في عربة التسوق الخاصة بك ... يرجى إفراغها قبل تغيير الفرع !!!!";
+
+"Profile" = "ﺣﺴﺎﺑﻲ";
+
+"About Us" = "ﻣﻦ ﻧﺤﻦ";
+
+"Contact Us" = "ﺍﺗﺼﻞ ﺑﻨﺎ";
+
+"Language" = "ﺍﻟﻠﻐﺔ";
+
+"My Orders" = "ﻃﻠﺒﺎﺗﻲ";
+
+"No Data" = "ﻻ ﻳﻮﺟﺪ ﺑﻴﺎﻧﺎﺕ";
+
+"Change branch" = "ﺗﻐﻴﻴﺮ ﺍﻟﻔﺮﻉ";
+
+"Logout" = "ﺗﺴﺠﻴﻞ ﺧﺮﻭﺝ";
+
+"Categories" = "ﺍﻷﺻﻨﺎﻑ";
+
+"Review Cart" = "ﻣﻌﻠﻮﻣﺎﺕ ﺍﻟﺴﻠﺔ";
+
+"Payment Method" = "ﻃﺮﻳﻘﺔ ﺍﻟﺪﻓﻊ";
+
+"Receipt Method" = "ﻃﺮﻳﻘﺔ ﺍﻻﺳﺘﻼﻡ";
+
+"Done" = "ﺗﻢ ﺍﻻﻧﺘﻬﺎﺀ";
+
+"Delivery" = "ﺗﻮﺻﻴﻞ";
+
+"Pickup" = "استلام";
+
+"Total" = "ﺍﻟﻤﺠﻤﻮﻉ ﺍﻟﻜﻠﻲ";
+
+"Subtotal" = "ﺍﻟﻤﺠﻤﻮﻉ";
+
+"Delivery" = "ﺗﻮﺻﻴﻞ";
+
+"Discount" = "ﺍﻟﺨﺼﻢ";
+
+"Update" = "ﺗﺤﺪﻳﺚ";
+
+"Gender" = "ﺍﻟﺠﻨﺲ";
+
+"Birth Date" = "ﺗﺎﺭﻳﺦ ﺍﻟﻤﻴﻼﺩ";
+
+"Mobile Number" = "ﺭﻗﻢ ﺍﻟﻬﺎﺗﻒ";
+
+"Email" = "ﺍﻻﻳﻤﻴﻞ";
+
+"Full Name" = "ﺍﻻﺳﻢ ﺍﻟﻜﺎﻣﻞ";
+
+"Password" = "ﻛﻠﻤﺔ ﺍﻟﻤﺮﻭﺭ";
+
+"Confirm Password" = "ﺗﺄﻛﻴﺪ ﻛﻠﻤﺔ ﺍﻟﻤﺮﻭﺭ";
+
+"Create an account" = "ﺍﻧﺸﺎﺀ ﺣﺴﺎﺏ";
+
+"Create Account" = "ﺍﻧﺸﺎﺀ ﺣﺴﺎﺏ";
+
+"By signing up, you agree to our terms of services & Privacy Policy" = " ﺑﺎﻟﺘﺴﺠﻴﻞ ، ﻓﺈﻧﻚ ﺗﻮﺍﻓﻖ ﻋﻠﻰ ﺷﺮﻭﻁ ﺍﻟﺨﺪﻣﺎﺕ ﻭﺳﻴﺎﺳﺔ ﺍﻟﺨﺼﻮﺻﻴﺔ ﺍﻟﺨﺎﺻﺔ ﺑﻨﺎ";
+
+"Log in or Create an account" = "ﺗﺴﺠﻴﻞ ﺍﻟﺪﺧﻮﻝ ﺃﻭ ﺍﻧﺸﺎﺀ ﺣﺴﺎﺏ";
+
+"Forgot your password?" = "ﻫﻞ ﻧﺴﻴﺖ ﻛﻠﻤﺔ ﺍﻟﺴﺮ؟";
+
+"Reset it" = "ﺍﻋﺎﺩﺓ ﺍﻟﻀﺒﻂ";
+
+"Email Address" = "ﻋﻨﻮﺍﻥ ﺑﺮﻳﺪﻱ";
+
+"Join paradise TodayCreate an account to continue shopping" = "ﺍﻧﻀﻢ ﺍﻟﻰ زوني ﺍﻟﻴﻮﻡ ﺍﻧﺸﺎﺀ ﺣﺴﺎﺏ ﻟﻠﺘﺴﻮﻕ";
+
+"Select location on map" = "ﺍﺧﺘﻴﺎﺭ ﻣﻮﻗﻌﻚ ﻋﻠﻰ ﺍﻟﺨﺮﻳﻄﺔ";
+
+"Saved addresses" = "ﺍﻟﻤﻮﺍﻗﻊ ﺍﻟﻤﺤﻔﻮﻇﺔ";
+
+"Save" = "ﺣﻔﻆ";
+
+"Continue Shopping" = "ﺍﻛﻤﺎﻝ ﺍﻟﺘﺴﻮﻕ";
+
+"City" = "ﻣﺪﻳﻨﺔ";
+
+"Area" = "ﻣﻨﻄﻘﺔ";
+
+"Building No" = "ﺭﻗﻢ ﺍﻟﺒﻨﺎﺀ";
+
+"Apt No" = "ﺭﻗﻢ ﺍﻟﺸﻘﺔ";
+
+"Street" = "ﺍﻟﺸﺎﺭﻉ";
+
+"Log in" = "ﺗﺴﺠﻴﻞ ﺍﻟﺪﺧﻮﻝ";
+
+"Continue with email" = "ﺩﺧﻮﻝ ﻋﻦ ﻃﺮﻳﻖ ﺍﻻﻳﻤﻴﻞ";
+
+"Continue with google" = "ﺍﻟﺪﺧﻮﻝ ﻋﺒﺮ ﺟﻮﺟﻞ";
+
+"Continue with facebook" = "ﺍﻟﺪﺧﻮﻝ ﻋﺒﺮ ﻓﻴﺴﺒﻮﻙ";
+
+"Choose Language" = "ﺍﺧﺘﺮ اللغة";
+
+"Confirm" = "ﻗﺒﻮﻝ";
+
+"Cancel" = "ﺍﻟﻐﺎﺀ";
+
+"Show Cart" = "ﻋﺮﺽ ﺍﻟﺴﻠﺔ";
+
+"Alert" = "ﺗﻨﺒﻴﻪ";
+
+"Place Order" = "ﺗﻘﺪﻳﻢ ﺍﻟﻄﻠﺐ";
+
+"Cash" = "ﻛﺎﺵ";
+
+"Online" = "ﺍﻭﻧﻼﻳﻦ";
+
+"Favorite" = "المفضلة";
+
+"All Categories" = "جميع الاصناف";
+
+"Item details" = "تفاصيل المنتج";
+
+"Related Products" = "منتجات مشابهة";
+
+"Add to favorite" = "اضافة للمفضلة";
+
+"Saved Address " = "العنوان المحفوظ ";
+
+"Saved Addresses" = "العناوين المحفوظة";
+
+"Apt no" = "رقم الشقة";
+
+"Building no" = "رقم البناية";
+
+"Location" = "الموقع";
+
+"Confirm pin location" = "تأكيد الموقع";
+
+"Delivery Location" = "مكان التوصيل";
+
+"Add Location" = "اضافة موقع";
+
+"Order No:" = "رقم الطلب:";
+
+"Order Details" = "تفاصيل الطلب";
+
+"No of items:" = "عدد العناصر:";
+
+"Total Price:" = "السعر الكلي:";
+
+"Payment Status:" = "حالة السداد:";
+
+"Shipping Address:" = "عنوان الشحن:";
+
+"Deliver to" = "التوصيل الى";
+
+"Retry" = "أعد المحاولة";
+
+"Please login first" = "الرجاء تسجيل الدخول";
+
+"Promo Code" = "الرمز الترويجي";
+
+"Apply" = "تطبيق";
+
+"Phone Number" = "رقم الهاتف";
+
+"Enter your phone" = "ادخل رقم الهاتف";
+
+"Please Wait" = "الرجاء الانتظار";
+
+"Join paradise Today
+Create an account to continue shopping" = "انضم إلى زوني اليوم
+انشئ حساب لمواصلة التسوق";
+
+"Search" = "البحث";
+
+"Search For Items" = "البحث عن منتجات";
+
+"Shipping Address:" = "عنوان التوصيل:";
+
+"Date:" = "التاريخ:";
+
+"Items" = "المنتجات";
+
+"Quantity: " = "الكمية: ";
+
+"Total price: " = "السعر الكلي: ";
+
+"Please enter the old password" = "الرجاء ادخل كلمة السر القديمة";
+
+"Please enter the new password" = "الرجاء ادخل كلمة السر الجديدة";
+
+"Please enter full name" = "الرجء ادخل الاسم الكامل";
+
+"Please enter email" = "الرجء ادخل البريد الالكتروني";
+
+"Please enter phone" = "الرجاء ادخل رقم الهاتف";
+
+"Please enter password" = "الرجاء ادخل كلمة السر";
+
+"Please enter confirm password" = "الرجء ادخل تأكيد كلمة السر";
+
+"Please enter confirm password correctly" = "الرجاء ادخل تأكيد كلمة السر بشكل صحيح";
+
+"Welcome back
+Log in with your email and password" = "مرحبا بعودتك
+قم بتسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور";
+
+"Login" = "تسجيل الدخول";
+
+"Server Error" = "خطأ في الخادم يرجى المحاولة مرة أخرى";

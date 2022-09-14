@@ -1,0 +1,249 @@
+/* 
+  Localizble.strings
+  Zooney
+
+  Created by Omar Warrayat on 27/10/2021.
+  
+*/
+
+"Continue as guest" = "Continue as guest";
+
+"Sign in with Paradise" = "Sign in with Zoonni";
+
+"or, Create a Paradise account" = "or, Create a Zoonni account";
+
+"Add to Cart" = "Add to Cart";
+
+"Home" = "Home";
+
+"Select" = "Select";
+
+"Male" = "Male";
+
+"Female" = "Female";
+
+"Deals" = "Deals";
+
+"Piece" = "Piece";
+
+"1 KG" = "1 KG";
+
+"Review Cart" = "Review Cart";
+
+"No location selected" = "No location selected";
+
+"Delivered" = "Delivered";
+
+"Pickup" = "Pickup";
+
+"theres_cart" = "There are products in your shopping cart ... please empty it before changing the branch!!!!";
+
+"Profile" = "Profile";
+
+"About Us" = "About Us";
+
+"Contact Us" = "Contact Us";
+
+"Language" = "Language";
+
+"My Orders" = "My Orders";
+
+"No Data" = "No Data";
+
+"Change branch" = "Change branch";
+
+"Logout" = "Logout";
+
+"Review Cart" = "Review Cart";
+
+"Payment Method" = "Payment Method";
+
+"Receipt Method" = "Receipt Method";
+
+"Done" = "Done";
+
+"Pickup" = "Pickup";
+
+"Total" = "Total";
+
+"Subtotal" = "Subtotal";
+
+"Delivery" = "Delivery";
+
+"Discount" = "Discount";
+
+"Update" = "Update";
+
+"Gender" = "Gender";
+
+"Birth Date" = "Birth Date";
+
+"Mobile Number" = "Mobile Number";
+
+"Email" = "Email";
+
+"Full Name" = "Full Name";
+
+"Password" = "Password";
+
+"Confirm Password" = "Confirm Password";
+
+"Create an account" = "Create an account";
+
+"Create Account" = "Create Account";
+
+"By signing up, you agree to our terms of services & Privacy Policy" = "By signing up, you agree to our terms of services & Privacy Policy";
+
+"Log in or Create an account" = "Log in or Create an account";
+
+"Forgot your password?" = "Forgot your password?";
+
+"Reset it" = "Reset it";
+
+"Email Address" = "Email Address";
+
+"Join paradise Today
+Create an account to continue shopping" = "Join zooni Today
+Create an account to continue shopping";
+
+"Select location on map" = "Select location on map";
+
+"Saved addresses" = "Saved addresses";
+
+"Save" = "Save";
+
+"Continue Shopping" = "Continue Shopping";
+
+"City" = "City";
+
+"Area" = "Area";
+
+"Building No" = "Building No";
+
+"Apt No" = "Apt No";
+
+"Street" = "Street";
+
+"Log in" = "Log in";
+
+"Continue with email" = "Continue with email";
+
+"Continue with google" = "Continue with google";
+
+"Continue with facebook" = "Continue with facebook";
+
+"Choose Language" = "Choose Language";
+
+"Confirm" = "Confirm";
+
+"Cancel" = "Cancel";
+
+"Show Cart" = "Show Cart";
+
+"Alert" = "Alert";
+
+"Place Order" = "Place Order";
+
+"Cash" = "Cash";
+
+"Online" = "Online";
+
+"Favorite" = "Favorite";
+
+"Categories" = "Categories";
+
+"All Categories" = "All Categories";
+
+"Item details" = "Item details";
+
+"Related Products" = "Related Products";
+
+"Add to favorite" = "Add to favorite";
+
+"Saved Address " = "Saved Address ";
+
+"Saved Addresses" = "Saved Addresses";
+
+"Apt no" = "Apt no";
+
+"Building no" = "Building no";
+
+"Location" = "Location";
+
+"Confirm pin location" = "Confirm pin location";
+
+"Delivery Location" = "Delivery Location";
+
+"Add Location" = "Add Location";
+
+"Order No:" = "Order No:";
+
+"Order Details" = "Order Details";
+
+"No of items:" = "No of items:";
+
+"Total Price:" = "Total Price:";
+
+"Payment Status:" = "Payment Status:";
+
+"Shipping Address:" = "Shipping Address:";
+
+"Deliver to" = "Deliver to";
+
+"Retry" = "Retry";
+
+"Please login first" = "Please login first";
+
+"Promo Code" = "Promo Code";
+
+"Apply" = "Apply";
+
+"Phone Number" = "Phone Number";
+
+"Enter your phone" = "Enter your phone";
+
+"Please Wait" = "Please Wait";
+
+"Join paradise Today
+Create an account to continue shopping" = "Join zoonni Today
+Create an account to continue shopping";
+
+"Search" = "Search";
+
+"Search For Items" = "Search For Items";
+
+"Shipping Address:" = "Shipping Address:";
+
+"Date:" = "Date:";
+
+"Items" = "Items";
+
+"Quantity: " = "Quantity: ";
+
+"Total price: " = "Total price: ";
+
+"Please enter the old password" = "Please enter the old password";
+
+"Please enter the confirm password correctly" = "Please enter the confirm password correctly";
+
+"Please enter the new password" = "Please enter the new password";
+
+"Please enter full name" = "Please enter full name";
+
+"Please enter email" = "Please enter email";
+
+"Please enter phone" = "Please enter phone";
+
+"Please enter password" = "Please enter password";
+
+"Please enter confirm password" = "Please enter confirm password";
+
+"Please enter confirm password correctly" = "Please enter confirm password correctly";
+
+"Welcome back
+Log in with your email and password" = "Welcome back
+Log in with your email and password";
+
+"Login" = "Login";
+
+"Server Error" = "Server Error Please try again";

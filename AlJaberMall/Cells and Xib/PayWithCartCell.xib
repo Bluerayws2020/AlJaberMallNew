@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="515" id="KGk-i7-Jjw" customClass="PayWithCartCell" customModule="AlJaberMall" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="515"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="515"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-dD-icA">
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="6"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.92554813619999998" blue="0.92537957429999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="6" id="hZv-Al-7Wb"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3y-zq-U2M" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                        <rect key="frame" x="15" y="36" width="146" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="6fm-Il-VIS"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="JmY-nX-MZK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Payment Method"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iWc-2J-qNL">
+                        <rect key="frame" x="15" y="81" width="348" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downArrow" translatesAutoresizingMaskIntoConstraints="NO" id="27h-Wm-ez9">
+                                <rect key="frame" x="313" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="SOd-80-0Gh"/>
+                                    <constraint firstAttribute="width" constant="20" id="gOs-oG-B8b"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET6-X0-zVg" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="45" y="15" width="41" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="DdT-ij-dxE"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Geh-XT-OwE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.396078431372549" green="0.396078431372549" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Select"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cash" translatesAutoresizingMaskIntoConstraints="NO" id="EhE-Bg-d7r">
+                                <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="90O-q7-vee"/>
+                                    <constraint firstAttribute="width" constant="20" id="wKW-x4-Dbc"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UHX-GW-dlm">
+                                <rect key="frame" x="0.0" y="0.0" width="348" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ET6-X0-zVg" firstAttribute="leading" secondItem="EhE-Bg-d7r" secondAttribute="trailing" constant="10" id="2Vy-Qe-1CX"/>
+                            <constraint firstAttribute="trailing" secondItem="27h-Wm-ez9" secondAttribute="trailing" constant="15" id="G7o-i3-BwA"/>
+                            <constraint firstAttribute="height" constant="50" id="Q3i-aG-Xui"/>
+                            <constraint firstItem="UHX-GW-dlm" firstAttribute="leading" secondItem="iWc-2J-qNL" secondAttribute="leading" id="TWc-bc-xHW"/>
+                            <constraint firstItem="ET6-X0-zVg" firstAttribute="centerY" secondItem="iWc-2J-qNL" secondAttribute="centerY" id="Tzc-ET-s5c"/>
+                            <constraint firstItem="UHX-GW-dlm" firstAttribute="top" secondItem="iWc-2J-qNL" secondAttribute="top" id="YTl-t9-oy1"/>
+                            <constraint firstAttribute="bottom" secondItem="UHX-GW-dlm" secondAttribute="bottom" id="ZRh-0u-K68"/>
+                            <constraint firstAttribute="trailing" secondItem="UHX-GW-dlm" secondAttribute="trailing" id="ecF-6R-c2M"/>
+                            <constraint firstItem="27h-Wm-ez9" firstAttribute="centerY" secondItem="iWc-2J-qNL" secondAttribute="centerY" id="pFB-si-NeI"/>
+                            <constraint firstItem="EhE-Bg-d7r" firstAttribute="centerY" secondItem="iWc-2J-qNL" secondAttribute="centerY" id="t8h-S0-gkG"/>
+                            <constraint firstItem="EhE-Bg-d7r" firstAttribute="leading" secondItem="iWc-2J-qNL" secondAttribute="leading" constant="15" id="yBb-Tv-ixY"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bz2-2b-3b8" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                        <rect key="frame" x="15" y="251" width="42.5" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Abj-kU-mW0"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="M2T-2i-YYv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Total"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Vg-Uo-mcc">
+                        <rect key="frame" x="15" y="291" width="348" height="214"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtotal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7f6-hK-1Sl" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="54.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8Xg-PI-vgf"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Egp-Xd-S6I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Subtotal"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jf-Li-G5d">
+                                <rect key="frame" x="327.5" y="0.0" width="20.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="cJf-eK-dj2"/>
+                                    <constraint firstAttribute="height" constant="20" id="peO-YE-JlO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service fee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBJ-7x-lYB" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="72.5" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="MwO-oB-wEF"/>
+                                    <constraint firstAttribute="height" id="hiT-Kn-JZQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Service fee"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrf-pr-tJb">
+                                <rect key="frame" x="327.5" y="20" width="20.5" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="jD4-Sq-OtS"/>
+                                    <constraint firstAttribute="height" id="nXP-yM-UaO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rby-bx-wKw" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="35" width="52.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="43r-go-KSP"/>
+                                    <constraint firstAttribute="height" constant="20" id="p2A-41-Uxf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Delivery"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mS1-Zm-gSj">
+                                <rect key="frame" x="327.5" y="35" width="20.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="FXz-p2-1JZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="K4C-qJ-DzA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxt-U0-hRD" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="70" width="57.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="7RF-ts-pfe"/>
+                                    <constraint firstAttribute="height" constant="20" id="Al4-EX-WAr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Discount"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdb-KX-G9X">
+                                <rect key="frame" x="327.5" y="70" width="20.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="Uxi-4F-daY"/>
+                                    <constraint firstAttribute="height" constant="20" id="rd8-hU-Lfp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMT-1R-9sO" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="115" width="34.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="beR-Ch-GUv"/>
+                                    <constraint firstAttribute="height" constant="20" id="dDF-f3-LSG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Total"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qA2-bc-c4Y">
+                                <rect key="frame" x="325.5" y="115" width="22.5" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="SAP-Wq-eDE"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="caf-h6-nbi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="09f-sZ-8l3" customClass="DesignableTextFeild" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="165" width="268" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder_Languagable" value="Promo Code"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDf-wr-NPF" customClass="DesignableButton" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="278" y="165" width="70" height="49"/>
+                                <color key="backgroundColor" red="0.0" green="0.45396071100000002" blue="0.075981397310000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="c0A-vM-Edj"/>
+                                </constraints>
+                                <state key="normal" title="Apply">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Apply"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="09f-sZ-8l3" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="0sL-jE-vQ5"/>
+                            <constraint firstItem="WBJ-7x-lYB" firstAttribute="top" secondItem="7f6-hK-1Sl" secondAttribute="bottom" id="1wx-89-NLS"/>
+                            <constraint firstItem="rby-bx-wKw" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="5XJ-nY-wCv"/>
+                            <constraint firstAttribute="trailing" secondItem="wDf-wr-NPF" secondAttribute="trailing" id="8Po-fC-XWU"/>
+                            <constraint firstItem="rby-bx-wKw" firstAttribute="top" secondItem="WBJ-7x-lYB" secondAttribute="bottom" constant="15" id="A0G-gn-FaT"/>
+                            <constraint firstItem="wDf-wr-NPF" firstAttribute="top" secondItem="qA2-bc-c4Y" secondAttribute="bottom" constant="30" id="AL3-Ny-WQN"/>
+                            <constraint firstItem="09f-sZ-8l3" firstAttribute="top" secondItem="iMT-1R-9sO" secondAttribute="bottom" constant="30" id="Ad0-Zb-Ixs"/>
+                            <constraint firstItem="7f6-hK-1Sl" firstAttribute="top" secondItem="1Vg-Uo-mcc" secondAttribute="top" id="Dob-5Z-947"/>
+                            <constraint firstItem="qA2-bc-c4Y" firstAttribute="top" secondItem="fdb-KX-G9X" secondAttribute="bottom" constant="25" id="Fra-Wb-uT3"/>
+                            <constraint firstItem="Uxt-U0-hRD" firstAttribute="top" secondItem="rby-bx-wKw" secondAttribute="bottom" constant="15" id="HVi-iZ-i5x"/>
+                            <constraint firstItem="mS1-Zm-gSj" firstAttribute="top" secondItem="nrf-pr-tJb" secondAttribute="bottom" constant="15" id="Hy3-mI-Duy"/>
+                            <constraint firstItem="Uxt-U0-hRD" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="IOH-fK-iwq"/>
+                            <constraint firstItem="7f6-hK-1Sl" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="N7c-v5-AEj"/>
+                            <constraint firstItem="iMT-1R-9sO" firstAttribute="top" secondItem="Uxt-U0-hRD" secondAttribute="bottom" constant="25" id="OHr-IA-jH0"/>
+                            <constraint firstItem="1jf-Li-G5d" firstAttribute="top" secondItem="1Vg-Uo-mcc" secondAttribute="top" id="OnR-cG-MkV"/>
+                            <constraint firstItem="wDf-wr-NPF" firstAttribute="leading" secondItem="09f-sZ-8l3" secondAttribute="trailing" constant="10" id="SE0-Yw-i3u"/>
+                            <constraint firstItem="iMT-1R-9sO" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="Tq4-fV-YmW"/>
+                            <constraint firstItem="fdb-KX-G9X" firstAttribute="top" secondItem="mS1-Zm-gSj" secondAttribute="bottom" constant="15" id="XUp-1Y-8Zj"/>
+                            <constraint firstAttribute="trailing" secondItem="qA2-bc-c4Y" secondAttribute="trailing" id="d72-DK-mD1"/>
+                            <constraint firstAttribute="bottom" secondItem="09f-sZ-8l3" secondAttribute="bottom" id="eEe-2Y-uce"/>
+                            <constraint firstAttribute="trailing" secondItem="1jf-Li-G5d" secondAttribute="trailing" id="ew4-Oq-di1"/>
+                            <constraint firstAttribute="trailing" secondItem="nrf-pr-tJb" secondAttribute="trailing" id="gTu-Jw-zWt"/>
+                            <constraint firstItem="WBJ-7x-lYB" firstAttribute="leading" secondItem="1Vg-Uo-mcc" secondAttribute="leading" id="jqH-7O-5AJ"/>
+                            <constraint firstAttribute="trailing" secondItem="fdb-KX-G9X" secondAttribute="trailing" id="mWr-1n-BYb"/>
+                            <constraint firstItem="nrf-pr-tJb" firstAttribute="top" secondItem="1jf-Li-G5d" secondAttribute="bottom" id="qaH-aW-suk"/>
+                            <constraint firstAttribute="trailing" secondItem="mS1-Zm-gSj" secondAttribute="trailing" id="scV-Je-IHW"/>
+                            <constraint firstAttribute="bottom" secondItem="wDf-wr-NPF" secondAttribute="bottom" id="twR-NW-Mup"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SbO-Em-5oX">
+                        <rect key="frame" x="15" y="186" width="348" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="downArrow" translatesAutoresizingMaskIntoConstraints="NO" id="Kom-40-p3b">
+                                <rect key="frame" x="313" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8w1-CX-7W3"/>
+                                    <constraint firstAttribute="width" constant="20" id="pFa-qw-ZPi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ah7-QT-qJd" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                                <rect key="frame" x="45" y="15" width="41" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="3lB-TV-N1v"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="vEB-lx-qdK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Select"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cash" translatesAutoresizingMaskIntoConstraints="NO" id="CcD-Py-fvH">
+                                <rect key="frame" x="15" y="15" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="O90-Qn-AQd"/>
+                                    <constraint firstAttribute="width" constant="20" id="oxg-Pu-dlq"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1wq-aw-fx9">
+                                <rect key="frame" x="0.0" y="0.0" width="348" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Kom-40-p3b" secondAttribute="trailing" constant="15" id="0Ga-2M-5ZP"/>
+                            <constraint firstItem="Kom-40-p3b" firstAttribute="centerY" secondItem="SbO-Em-5oX" secondAttribute="centerY" id="1v8-ov-bW4"/>
+                            <constraint firstItem="1wq-aw-fx9" firstAttribute="leading" secondItem="SbO-Em-5oX" secondAttribute="leading" id="2Ch-3a-O2q"/>
+                            <constraint firstAttribute="trailing" secondItem="1wq-aw-fx9" secondAttribute="trailing" id="8Pr-Ad-WSp"/>
+                            <constraint firstItem="CcD-Py-fvH" firstAttribute="centerY" secondItem="SbO-Em-5oX" secondAttribute="centerY" id="90a-uH-yEF"/>
+                            <constraint firstAttribute="bottom" secondItem="1wq-aw-fx9" secondAttribute="bottom" id="LrF-LX-apT"/>
+                            <constraint firstItem="Ah7-QT-qJd" firstAttribute="leading" secondItem="CcD-Py-fvH" secondAttribute="trailing" constant="10" id="QgM-HG-v2W"/>
+                            <constraint firstItem="1wq-aw-fx9" firstAttribute="top" secondItem="SbO-Em-5oX" secondAttribute="top" id="RGL-7p-bbL"/>
+                            <constraint firstAttribute="height" constant="50" id="Toa-ZK-Qqw"/>
+                            <constraint firstItem="Ah7-QT-qJd" firstAttribute="centerY" secondItem="SbO-Em-5oX" secondAttribute="centerY" id="aYf-vz-zCQ"/>
+                            <constraint firstItem="CcD-Py-fvH" firstAttribute="leading" secondItem="SbO-Em-5oX" secondAttribute="leading" constant="15" id="e20-1C-ykg"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receipt Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6I-44-BHY" customClass="DesignableLabel" customModule="AlJaberMall" customModuleProvider="target">
+                        <rect key="frame" x="15" y="146" width="135.5" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="0rA-Gv-yCT"/>
+                            <constraint firstAttribute="height" constant="25" id="p8Y-qb-vue"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="Languagable" value="Receipt Method"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="YOn-dD-icA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0s7-Z4-Ifl"/>
+                    <constraint firstItem="bz2-2b-3b8" firstAttribute="top" secondItem="iWc-2J-qNL" secondAttribute="bottom" constant="120" id="3Z3-xz-w7x"/>
+                    <constraint firstItem="l6I-44-BHY" firstAttribute="top" secondItem="iWc-2J-qNL" secondAttribute="bottom" constant="15" id="402-ld-7P9"/>
+                    <constraint firstItem="YOn-dD-icA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="62y-Jd-Bgd"/>
+                    <constraint firstItem="SbO-Em-5oX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="6Pk-EP-cF0"/>
+                    <constraint firstItem="SbO-Em-5oX" firstAttribute="top" secondItem="l6I-44-BHY" secondAttribute="bottom" constant="15" id="6x3-v0-BD4"/>
+                    <constraint firstAttribute="trailing" secondItem="iWc-2J-qNL" secondAttribute="trailing" constant="15" id="9bB-EA-k7L"/>
+                    <constraint firstItem="f3y-zq-U2M" firstAttribute="top" secondItem="YOn-dD-icA" secondAttribute="bottom" constant="30" id="BGI-77-cTm"/>
+                    <constraint firstAttribute="trailing" secondItem="SbO-Em-5oX" secondAttribute="trailing" constant="15" id="HLB-ZQ-m6u"/>
+                    <constraint firstItem="iWc-2J-qNL" firstAttribute="top" secondItem="f3y-zq-U2M" secondAttribute="bottom" constant="20" id="I40-sN-x3F"/>
+                    <constraint firstItem="l6I-44-BHY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="TiB-pP-27p"/>
+                    <constraint firstAttribute="trailing" secondItem="YOn-dD-icA" secondAttribute="trailing" id="Uap-4B-Cq8"/>
+                    <constraint firstItem="1Vg-Uo-mcc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Ui3-XW-O4w"/>
+                    <constraint firstItem="iWc-2J-qNL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="cMX-GI-FJq"/>
+                    <constraint firstAttribute="trailing" secondItem="1Vg-Uo-mcc" secondAttribute="trailing" constant="15" id="e9J-Ha-50U"/>
+                    <constraint firstItem="bz2-2b-3b8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="iPD-Et-sde"/>
+                    <constraint firstAttribute="bottom" secondItem="1Vg-Uo-mcc" secondAttribute="bottom" constant="10" id="ibd-se-Vvp"/>
+                    <constraint firstItem="f3y-zq-U2M" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ifF-NJ-EPW"/>
+                    <constraint firstItem="1Vg-Uo-mcc" firstAttribute="top" secondItem="bz2-2b-3b8" secondAttribute="bottom" constant="15" id="ylW-xd-jcP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="applyBtn" destination="wDf-wr-NPF" id="olb-na-kbC"/>
+                <outlet property="deliveryLbl" destination="mS1-Zm-gSj" id="pgv-JG-pqv"/>
+                <outlet property="discountLbl" destination="fdb-KX-G9X" id="8ny-CV-Gxl"/>
+                <outlet property="paymentMethodLbl" destination="ET6-X0-zVg" id="U02-Kv-vLN"/>
+                <outlet property="paymentMethodTxt" destination="UHX-GW-dlm" id="4vG-4L-DyX"/>
+                <outlet property="paymentTypeView" destination="iWc-2J-qNL" id="swI-mh-knn"/>
+                <outlet property="promoTxt" destination="09f-sZ-8l3" id="fTc-nc-N6V"/>
+                <outlet property="recieptMethodLbl" destination="Ah7-QT-qJd" id="v2K-fe-Vfv"/>
+                <outlet property="recieptMethodTxt" destination="1wq-aw-fx9" id="F0Z-u5-mKd"/>
+                <outlet property="recieptTypeView" destination="SbO-Em-5oX" id="05h-6w-CpY"/>
+                <outlet property="subTotalLbl" destination="1jf-Li-G5d" id="r88-d7-MuR"/>
+                <outlet property="totalLbl" destination="qA2-bc-c4Y" id="VBW-n1-cBY"/>
+            </connections>
+            <point key="canvasLocation" x="44.927536231884062" y="197.87946428571428"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="09f-sZ-8l3">
+            <size key="intrinsicContentSize" width="118.5" height="34"/>
+        </designable>
+        <designable name="7f6-hK-1Sl">
+            <size key="intrinsicContentSize" width="54.5" height="17"/>
+        </designable>
+        <designable name="Ah7-QT-qJd">
+            <size key="intrinsicContentSize" width="41" height="17"/>
+        </designable>
+        <designable name="ET6-X0-zVg">
+            <size key="intrinsicContentSize" width="41" height="17"/>
+        </designable>
+        <designable name="Uxt-U0-hRD">
+            <size key="intrinsicContentSize" width="57.5" height="17"/>
+        </designable>
+        <designable name="WBJ-7x-lYB">
+            <size key="intrinsicContentSize" width="72.5" height="17"/>
+        </designable>
+        <designable name="bz2-2b-3b8">
+            <size key="intrinsicContentSize" width="42.5" height="21.5"/>
+        </designable>
+        <designable name="f3y-zq-U2M">
+            <size key="intrinsicContentSize" width="146" height="21.5"/>
+        </designable>
+        <designable name="iMT-1R-9sO">
+            <size key="intrinsicContentSize" width="34.5" height="17"/>
+        </designable>
+        <designable name="l6I-44-BHY">
+            <size key="intrinsicContentSize" width="135.5" height="21.5"/>
+        </designable>
+        <designable name="rby-bx-wKw">
+            <size key="intrinsicContentSize" width="52.5" height="17"/>
+        </designable>
+        <designable name="wDf-wr-NPF">
+            <size key="intrinsicContentSize" width="40" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="cash" width="64" height="64"/>
+        <image name="downArrow" width="64" height="64"/>
+    </resources>
+</document>
